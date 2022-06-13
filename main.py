@@ -1,24 +1,16 @@
-import requests
+# This is a sample Python script.
 
-# How can we authenaticate ourselevs with an api
-# provider
-# to gain acess to more secure and valuable data.
+# Press ⌃R to execute it or replace it with your code.
+# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
-weather_params = {
-    "lat": 30.542959,
-    "lon": -97.547089,
-    "appid": "33b074f8bf9edd2371e1afd2172333b8",
-    "exclude": "current,minutely,daily",
 
-}
-response = requests.get(url="http://api.openweathermap.org/data/2.5/onecall", params=weather_params)
-if response.status_code != 200:
-    response.raise_for_status()
-data = response.json()
-data_per_hour =data["hourly"][:12]
-print(data_per_hour)
-will_Rain = False
-for data in data_per_hour:
-    if int(data["weather"][0]["id"]) < 700:
-        will_Rain = True
-print(will_Rain)
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
