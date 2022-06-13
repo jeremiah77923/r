@@ -1,0 +1,9 @@
+Dear [name],
+
+You are invited to my birthday party on [day_of_week], [month], [day] at [time] [day_time]
+
+It is at [description], the address is [address].
+
+Hope you can make it!
+
+Jeremiah

@@ -1,0 +1,10 @@
+user_information
+hhhhhheeeerre
+jere12
+
+
+id:graph
+name:running
+unit:km
+type:int
+color:sora
