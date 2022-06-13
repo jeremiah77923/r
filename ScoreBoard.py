@@ -1,17 +1,16 @@
 from turtle import Turtle
 
 
-class ScoreBoard(Turtle):
-    def __init__(self, x, y):
+class Score(Turtle):
+    def __init__(self):
         super().__init__()
-        self.penup()
-        self.align = ""
-        self.hideturtle()
         self.score = 0
-        self.color("white")
-        self.goto(x, y)
-        self.write(f"{self.score}", align="center", font=("Arial", 50, "normal"))
+        self.penup()
+        self.hideturtle()
+        self.goto(-240, 265)
+        self.write(arg=f"Level: {self.score}", align="center", font=("Arial", 30, "normal"))
 
-    def update(self):
+    def update(self, score):
         self.clear()
-        self.write(f"{self.score}", align="center", font=("Arial", 50, "normal"))
+        self.write(arg=f"Level: {score}", align="center", font=("Arial", 30, "normal"))
+

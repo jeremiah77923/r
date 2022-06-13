@@ -1,0 +1,31 @@
+CSS stands for Cascading Style Sheets:
+Cascading refers to the way CSS applies one style on top of another.
+Style Sheets control the look and feel of web documents
+
+CSS and HTML work hand in hand:
+HTML sorts out the page structure.
+CSS defines how HTML elements are displayed.
+To understand CSS, you should already have a basic understanding of HTML.
+
+HTML: Skeleton
+CSS: Skin
+JavaScript: Muscles
+
+HTML = Content + Structure
+CSS = Presentation + Appearance
+JS(Java Script) = Behaviour + Interactivity
+
+webpage = human
+HTML = Skeleton
+CSS = Skin
+JavaScript = Muscles
+
+HTML is the skeleton and CSS is skin of The webpage,
+like a human body that gives attractive look to the website.
+
+Why use CSS?
+
+CSS allows you to apply specific styles to specific HTML elements.
+The main benefit of CSS is that it allows you to seperate style from
+content. Using just HTML, all styles anf formating are done in the smae
+p;ace.
